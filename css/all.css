@@ -1,0 +1,172 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 800px;
+	margin: 0px auto;
+}
+
+.header{	
+	background-image:-webkit-linear-gradient(top, #FFFFFF 85%,#E8E8E8 100%);
+	height: 100px;
+	width: 800px;
+	float: left;
+	padding-top: 10px;
+}
+
+.menu{
+	float: right;
+	font-style: italic;
+}
+
+.menu li img{
+	margin-top: 5px;
+}
+.menu li{
+	float: left;
+	list-style-type: none;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: bold;
+	color: #666666;
+	font-size: 12px;
+	text-align: center;
+}
+.menu li a{
+	display:  block;
+	text-decoration: none;
+}
+
+.LeftContent{
+	width: 520px;
+	height: 200px;
+	float: left;
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+
+.rightContent{
+	float: left;
+	box-shadow: 3px 3px 5px 5px #cccccc;
+	width: 240px;
+	height: 200px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+.MenuProduct li{
+	display: inline;
+	float: left;
+	width: 240px;
+	border-color: #cee5fa;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	margin-right: 15px;
+	margin-top: 5px;
+	padding-top: 10px;
+	text-decoration: none;
+  	color: #666666;
+  	list-style: none;
+  	background: linear-gradient(#FFFFFF, #cee5fa);	
+}
+
+.Product{
+	height: 270px;
+}
+
+.Product_CC{
+	position: relative;
+	left: 70px;
+	opacity: 0.5;
+}
+
+hr{
+	width: 100%;
+	color: #666666;
+	opacity: 0.3;
+	border-width: 1px;
+}
+
+body{
+	font-family: "Century Gothic";
+}
+
+h1{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 26px;
+	color: #0066FF;
+	text-decoration: underline;
+}
+
+p{
+	margin-top: 5px;
+  	margin-right: 10px;
+  	margin-bottom: 0px;
+  	color: #666666;
+  	font-size: 14px;
+}
+
+.MenuProduct p{
+	margin-left: 10px;
+}
+
+h2{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: 550;
+}
+span{
+	color: #666666;
+	font-size: 14px;
+}
+
